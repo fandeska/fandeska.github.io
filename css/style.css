@@ -39,7 +39,9 @@ header {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  padding-bottom: 250px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  padding-bottom: 200px;
 }
 
 #home h1 {
@@ -233,3 +235,5 @@ footer {
 .footer-pages a:hover {
   color: white;
 }
+
+/**Skills********************/
